@@ -1,6 +1,7 @@
 package ch.goldensbg.adamasCraft.listeners;
 
 import ch.goldensbg.adamasCraft.AdamasCraft;
+import ch.goldensbg.adamasCraft.commands.MaintenanceCommand;
 import ch.goldensbg.adamasCraft.utils.MessageUtil;
 import ch.goldensbg.adamasCraft.utils.YamlFile;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -18,7 +19,7 @@ public class MaintenanceListener implements Listener {
 
     @EventHandler
     public void onLogin(PlayerLoginEvent event) {
-        this.maintenanceList = new YamlFile(AdamasCraft.getInstance(), "MaintenanceList.yml");;
+        this.maintenanceList = new YamlFile(AdamasCraft.getInstance(), "MaintenanceList.yml");
         Player player = event.getPlayer();
 
         List<String> playerList = maintenanceList.getStringList("ByPass");

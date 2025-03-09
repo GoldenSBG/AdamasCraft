@@ -1,7 +1,7 @@
-package ch.goldensbg.adamasCraft.seasons.smp.trivita.listener;
+package ch.goldensbg.adamasCraft.seasons.seasons.smp.trivita.listener;
 
 import ch.goldensbg.adamasCraft.AdamasCraft;
-import ch.goldensbg.adamasCraft.seasons.smp.trivita.LivesManager;
+import ch.goldensbg.adamasCraft.seasons.seasons.smp.trivita.LivesManager;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

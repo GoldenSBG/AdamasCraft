@@ -4,8 +4,6 @@ import ch.goldensbg.adamasCraft.AdamasCraft;
 import lombok.Getter;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.plugin.java.JavaPlugin;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;
@@ -89,6 +87,10 @@ public class YamlFile {
 
             return result;
         }
+    }
+
+    public boolean getBoolean(String path) {
+        return config.getBoolean(path);
     }
 
 

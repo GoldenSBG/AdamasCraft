@@ -1,4 +1,4 @@
-package ch.goldensbg.adamasCraft.seasons.smp.trivita;
+package ch.goldensbg.adamasCraft.seasons.seasons.smp.trivita;
 
 import ch.goldensbg.adamasCraft.AdamasCraft;
 import ch.goldensbg.adamasCraft.utils.YamlFile;

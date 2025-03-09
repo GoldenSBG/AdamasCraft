@@ -1,7 +1,5 @@
 package ch.goldensbg.adamasCraft.listeners;
 
-import ch.goldensbg.communityserver.commands.SettingsCommand;
-import ch.goldensbg.communityserver.menus.SettingsMenu;
 import org.bukkit.World;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

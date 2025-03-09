@@ -1,4 +1,4 @@
-package ch.goldensbg.adamasCraft.seasons.smp.trivita.commands;
+package ch.goldensbg.adamasCraft.seasons.seasons.smp.trivita;
 
 import ch.goldensbg.adamasCraft.seasons.smp.trivita.LivesManager;
 import org.bukkit.Bukkit;
