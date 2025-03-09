@@ -1,4 +1,4 @@
-package ch.goldensbg.adamasCraft.listeners;
+package ch.goldensbg.adamasCraft.listeners.settings;
 
 import org.bukkit.World;
 import org.bukkit.event.EventHandler;

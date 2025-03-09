@@ -59,6 +59,7 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+
     </repositories>
 
     <dependencies>
@@ -101,5 +102,12 @@
             <version>5.4</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>5.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 </project>
