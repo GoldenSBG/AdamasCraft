@@ -1,0 +1,4 @@
+name: AdamasCraft
+version: '1.0-SNAPSHOT'
+main: ch.goldensbg.adamasCraft.AdamasCraft
+api-version: '1.21'
